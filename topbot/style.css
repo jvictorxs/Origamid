@@ -1,0 +1,17 @@
+span {
+  border: 1px solid black;
+  display: inline-block;
+}
+
+span {
+  padding: 30px;
+  padding: 20px 60px;
+  padding: 20px 50px 100px 200px;
+}
+
+span {
+  border-top: 10px solid blue;
+  border-bottom: 20px solid yellow;
+  border-right: 40px solid red;
+  border-left: 50px solid black;
+}

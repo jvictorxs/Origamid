@@ -1,0 +1,107 @@
+body {
+  margin: 0px;
+  font-family: Arial;
+  background-color: #f7f7f7;
+  display: grid;
+  justify-content: center;
+}
+
+.logo {
+  margin: 50px auto;
+}
+
+.menu {
+  display: flex;
+  gap: 40px;
+  flex: 1;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+
+.menu a {
+  text-decoration: none;
+  padding: 20px;
+  background: #ffffff;
+  color: #000000;
+  border-radius: 4px;
+}
+
+/* -------container ------- */
+
+.container {
+  max-width: 1000px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.descricao {
+  background: #fff;
+  display: grid;
+  text-align: right;
+  align-content: center;
+  padding: 40px;
+}
+.descricao p {
+  margin-top: 0px;
+  font-size: 20px;
+}
+
+.descricao a {
+  text-decoration: none;
+  padding: 15px;
+  border-radius: 4px;
+  place-self: end;
+  color: #fff;
+  background: #e21;
+}
+
+.foto {
+  max-width: 100%;
+}
+
+.vantagem {
+  font-size: 64px;
+  font-weight: bold;
+  color: #c6c6c6;
+  place-self: center;
+  text-align: right;
+  text-transform: uppercase;
+  padding: 40px;
+}
+
+.especificacao {
+  display: grid;
+  padding: 40px;
+  background: #fff;
+}
+
+.especificacao p {
+  margin: 0px;
+  font-size: 20px;
+}
+
+.vantagens {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 20px;
+  margin-bottom: 20px;
+}
+
+.vantagens h3 {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  text-align: top;
+}
+
+.vantagens p {
+  padding-bottom: 10px;
+  grid-column: 2;
+}
+
+footer {
+  justify-self: center;
+  padding: 40px 0;
+  background: #f7f7f7;
+  color: #000;
+  font-size: 20px;
+}

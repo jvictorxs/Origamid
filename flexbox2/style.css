@@ -1,0 +1,20 @@
+.flex {
+  display: flex;
+  gap: 20px;
+}
+
+body {
+  margin: 0px;
+}
+
+h2 {
+  background: #e7e7e7;
+  border: 1px solid #d7d7d7;
+  padding: 20px;
+  margin: 0px;
+  flex-grow: 1; /* faz os itens (crescer) completarem a caixa 0=nao cresce 1=cresce */
+  flex-basis: 1; /* torna todas caixas de tamanho iguais 0=iguais 1= faz crescer proporcional*/
+  flex-shrink: 0; /* determina se o item pode ser encolhido ou nao 0=nao encolhe, 1=encolhe*/
+
+  flex: 1; /* grow1 shrik1 basis0 */
+}

@@ -1,0 +1,37 @@
+body {
+  font-size: Arial;
+}
+
+h1 {
+  text-align: center;
+}
+
+h2 {
+  margin-top: 0px;
+}
+
+.comprar {
+  background: #a8f;
+  color: #103;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 4px;
+}
+
+.item {
+  background: #f7f7f7;
+  border: 1px solid #e0dddd;
+  padding: 20px;
+  border-radius: 4px;
+  display: grid;
+}
+
+.grid {
+  height: 800px;
+  display: grid;
+  grid-template-columns: 300px 300px;
+  gap: 20px;
+  justify-content: center; /* alinha os itens em horizontal */
+  align-content: center; /* alinha os itens em vertical */
+  place-content: center center; /* atalho para as tags acima na ordem de align e depois justify */
+}
