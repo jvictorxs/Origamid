@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Semantica e Pontos de Referencias</title>
+</head>
+
+<body>
+  <nav> <!-- indica a area de navegação do site -->
+    <a href="./">Sobre</a>
+    <a href="">Contato</a>
+  </nav>
+
+  <main> <!-- indica o conteudo principal do site -->
+    <h1>Titulo Principal</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis eligendi ipsa quia consequatur error recusandae sunt, inventore laudantium fuga saepe blanditiis at eius possimus sit, similique, earum quis reprehenderit quae.</p>
+
+
+    <article aria-label="Sobre Bikcraft"> <!-- rerpesenta uma regiao do site que nao precisa do restante do site para fazer sentido, geralmente contem um titulo com H. Exemplo : lista de produtos do site, um artigo, post na rede social -->
+      <h2 id="aria-labelledby">Sobre Bikcraft</h2>
+      <p>Empresa foi fundada em 2014</p>
+      <!-- aria-label Titulo da regiao visualmente escondido mas lido pelo leitor de tela -->
+      <!-- aria-labelledby Se houver titulo na tela, marque o mesmo com um id e use este atributo -->
+    </article>
+
+    <section aria-label="Sobre a Surfbot"> <!-- section pode ser utilizada para agrupar o conteudo do site em diferentes regioes. Geralmente o conteudo precisa do seu contexto pra ser compreendido. Necessita de aria-label para criar uma regiao de acesso -->
+      <h2>Sobre Surfbot</h2>
+      <p>A empresa foi fundada em 2014</p>
+    </section>
+
+    <aside> <!-- marca conteudo completamente ao site principal. Exemplo: lista dos posts mais visitado, assunto fora do contexto do conteudo principal. Nao cria regiao de acessibilidade-->
+
+    </aside>
+  </main>
+
+</body>
+
+</html>
