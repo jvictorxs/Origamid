@@ -1,0 +1,16 @@
+body {
+  margin: 20px;
+}
+
+ul,
+ol {
+  padding: 0px;
+  margin: 0px;
+  list-style: square inside;
+  list-style: none;
+}
+
+dl,
+dd {
+  margin: 0px;
+}
