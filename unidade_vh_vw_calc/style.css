@@ -1,0 +1,18 @@
+body {
+  margin: 0px;
+}
+
+/* div {
+  height: 50vh;
+  background: lightblue;
+  width: 100vw;
+} */
+
+div {
+  height: 10vh;
+  background: lightblue;
+  width: calc(100vw / 16);
+  /* width: calc(100vw - 100px); */
+  /* vw ou vh ocupa sempre o tamanho total da tela independente do elemento pai */
+  /* função CALC pode ser utilizada para dividir o valor total em proporção ou diminuir em px */
+}
