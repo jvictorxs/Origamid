@@ -1,0 +1,22 @@
+a {
+  text-decoration: none;
+  color: white;
+  background: darkblue;
+  display: inline-block;
+}
+
+p {
+  background: lightblue;
+}
+
+.px {
+  font-size: 24px;
+  padding: 16px 32px;
+}
+
+/* calcular rem é o valor de px desejado divido pra 16    x/16  = rem */
+/* valor padrao de font do browser é 16 */
+.rem {
+  font-size: 1.5rem;
+  padding: 1rem 2rem;
+}
