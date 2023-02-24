@@ -1,0 +1,13 @@
+p {
+  font-size: 2rem; /* 1rem equivale a 16x ou a font size padrao do app */
+  font-family: Arial;
+  font-weight: bold; /* peso da letra podendo engrossar a letra */
+  font-style: italic;
+  line-height: 1.5; /* 1 indica o espaço de 1 linha ocupado apenas o espaço do tamanho da fonte, 1.5 ocupado o tamanho de uma linha e meia (1.5 é um valor padrao ) */
+  text-decoration: underline;
+  text-transform: capitalize; /* transforma  estilo do texto, capitalize por exemplo, coloca todas as primeiras letras em maiusculo (pode colocar tudo em maiusculo ou minusculo tbm) */
+  text-indent: 5rem; /* serve para mostrar onde começa o proximo paragrafo ou espaçar o paragrafo do canto */
+  text-align: right; /* alinha o texto em alguma direção */
+  text-shadow: 5px 5px 10px gray; /* sombra no texto */
+  letter-spacing: 0.05rem; /* espaçamento entre as letras */
+}
