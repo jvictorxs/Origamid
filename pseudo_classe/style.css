@@ -1,0 +1,35 @@
+a {
+  display: inline-block;
+  padding: 1rem 2rem;
+  font-size: 1.5rem;
+  font-family: Arial;
+  text-decoration: none;
+  background-color: #caf;
+  color: #217;
+  transition: 0.3s;
+}
+/* hover funciona na passada do mouse */
+a:hover {
+  background-color: #adf;
+  color: #147;
+}
+
+/* focus funciona quando o item esta selecionado, pelo tab por exemplo */
+
+a:focus {
+  background-color: #cfa;
+  color: #371;
+  /* outline: none; */
+}
+
+/* active funciona quando o item esta clicado */
+a:active {
+  background-color: #ffa;
+  color: #671;
+}
+
+/* visited funciona quando o item ja foi visitado */
+a:visited {
+  background-color: #fda;
+  color: #731;
+}
