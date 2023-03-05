@@ -33,3 +33,30 @@ a:visited {
   background-color: #fda;
   color: #731;
 }
+
+.lista-1 li:first-child {
+  background-color: #caf;
+}
+
+.lista-1 li:last-child {
+  background-color: #cfa;
+}
+
+.lista-1 li {
+  background-color: #ffa;
+}
+
+/* even seleciona todos os elementos pares */
+/* odd seleciona todos os elementos pares */
+/* Numero + n  seleciona os paragrafos de *Numero* em *Numero* */
+.lista-2 li:nth-child(4n) {
+  background-color: #cfa;
+}
+
+.lista-3 li {
+  background-color: #caf;
+}
+/* negando elemento */
+.lista-3 li:not(:first-child, :last-child) {
+  background-color: #cdf;
+}
