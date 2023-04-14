@@ -1,0 +1,137 @@
+body {
+  font-size: 1rem;
+  margin: 0rem;
+  font-family: Arial;
+  background-color: #f7f7f7;
+}
+
+.container {
+  display: grid;
+  justify-content: center;
+}
+
+/*---------header-------*/
+
+header {
+  display: grid;
+  justify-content: center;
+}
+
+.logo {
+  padding: 4rem;
+  justify-self: center;
+}
+
+nav {
+  display: flex;
+  gap: 2.5rem;
+  flex: 1;
+  margin-bottom: 4rem;
+  justify-content: center;
+}
+
+nav a {
+  text-decoration: none;
+  padding: 1.25rem;
+  color: #000000;
+  background-color: #ffffff;
+  border-radius: 0.25rem;
+  border: 2px solid #fff;
+}
+
+nav a:hover {
+  border: 2px solid #e21;
+}
+
+/*------main------*/
+
+main {
+  max-width: 62.5rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-content: center;
+}
+
+.introducao {
+  background-color: #ffffff;
+  display: grid;
+  text-align: right;
+  align-content: center;
+  padding: 2.5rem;
+}
+
+.introducao a {
+  background-color: #e21;
+  color: #ffffff;
+  text-decoration: none;
+  border-radius: 0.25rem;
+  place-self: end;
+  padding: 1rem;
+}
+
+.introducao a:hover {
+  background-color: #900;
+  transition-duration: 0.5s;
+}
+
+.introducao p {
+  font-size: 1.25rem;
+  margin-top: 0rem;
+}
+
+.bike {
+  max-width: 100%;
+}
+
+.vantagensbikcraft {
+  background-image: url(./img/onda.svg);
+}
+
+.vantagem {
+  font-size: 4rem;
+  font-weight: bold;
+  color: #c6c6c6;
+  place-self: center;
+  text-align: right;
+  text-transform: uppercase;
+  padding: 2.5rem;
+}
+
+.descricoes {
+  display: grid;
+  padding: 2.5rem;
+  background: #fff;
+}
+
+.descricoes p {
+  margin: 0px;
+  font-size: 1.25rem;
+}
+
+.descricao {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 1.25rem;
+  margin-bottom: 1.25rem;
+  padding: 0.1rem;
+  border-left: 3px solid #fff;
+}
+
+.descricao:nth-child(odd) {
+  background-color: #f7f7f7;
+}
+
+.descricao:hover {
+  border-left: 3px solid #e21;
+}
+
+.descricao h3 {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  text-align: top;
+}
+
+.descricao p {
+  padding-bottom: 10px;
+  grid-column: 2;
+}
